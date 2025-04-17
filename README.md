@@ -9,6 +9,15 @@
 
 ---
 
+## 🤝 Purchase
+- **Source Code** - 120$
+- **Lifetime** - 50$
+- **Monthly** - 20$
+- [Join Our Discord](https://discord.gg/reliantt)
+- [Website](https://reliant.mysellauth.com/)
+- [Issue Tracker](https://github.com/reliantservices/FiveM-Bot/issues)
+
+
 ## 📋 Table of Contents
 - [Features](#-features)
 - [Requirements](#-requirements)
@@ -243,12 +252,6 @@
 
 ### Help
 - `/help` - Get detailed help information about commands
-
-## 🤝 Purchase
-
-- [Join Our Discord](https://discord.gg/reliantt)
-- [Website](https://reliant.mysellauth.com/)
-- [Issue Tracker](https://github.com/reliantservices/FiveM-Bot/issues)
 
 ## 📄 License
 
