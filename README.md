@@ -13,7 +13,7 @@
 - [Features](#-features)
 - [Requirements](#-requirements)
 - [Commands](#-commands)
-- [Support](#-support)
+- [Purchase](#-purchase)
 - [License](#-license)
 
 ## 🚀 Features
@@ -168,9 +168,9 @@
 
 ### System Requirements
 - Node.js 18.0.0 or higher
-- MongoDB 4.4 or higher
-- Discord.js v14
-- FiveM Server
+- MongoDB Atlass or Compass
+- Discord.js
+- FiveM Server ( Optional )
 
 ### Discord Bot Requirements
 - Message Content Intent
@@ -244,10 +244,10 @@
 ### Help
 - `/help` - Get detailed help information about commands
 
-## 🤝 Support
+## 🤝 Purchase
 
 - [Join Our Discord](https://discord.gg/reliantt)
-- [Documentation](https://your-docs-url.com)
+- [Website](https://reliant.mysellauth.com/)
 - [Issue Tracker](https://github.com/reliantservices/FiveM-Bot/issues)
 
 ## 📄 License
