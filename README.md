@@ -12,11 +12,8 @@
 ## 📋 Table of Contents
 - [Features](#-features)
 - [Requirements](#-requirements)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
 - [Commands](#-commands)
 - [Support](#-support)
-- [Contributing](#-contributing)
 - [License](#-license)
 
 ## 🚀 Features
@@ -185,45 +182,6 @@
 - Dual-core processor
 - Stable internet connection
 
-## 📥 Installation
-
-1. **Clone the Repository**
-```bash
-git clone https://github.com/reliantservices/FiveM-Bot.git
-cd FiveM-Bot
-```
-
-2. **Install Dependencies**
-```bash
-npm install
-```
-
-3. **Configure Environment**
-```bash
-cp .env.example .env
-# Edit .env with your settings
-```
-
-4. **Start the Bot**
-```bash
-npm start
-```
-
-## ⚙️ Configuration
-
-### Essential Settings
-```env
-TOKEN=your_discord_bot_token
-MONGODB_URI=your_mongodb_connection_string
-FIVEM_SERVER_IP=your_server_ip_or_connection_code
-```
-
-### Optional Features
-```env
-WELCOME_CHANNEL=channel_id
-LOGS_CHANNEL=channel_id
-VERIFICATION_ROLE=role_id
-```
 
 ## 🎯 Commands
 
@@ -292,14 +250,6 @@ VERIFICATION_ROLE=role_id
 - [Documentation](https://your-docs-url.com)
 - [Issue Tracker](https://github.com/reliantservices/FiveM-Bot/issues)
 
-## 👥 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -313,5 +263,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
   <p>Made with ❤️ for the FiveM Community</p>
-  <p>© 2023 Reliant Services. All rights reserved.</p>
+  <p>© 2025 Reliant Services. All rights reserved.</p>
 </div>
