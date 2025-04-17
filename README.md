@@ -10,9 +10,9 @@
 ---
 
 ## 🤝 Purchase
-- **Source Code** - 120$
-- **Lifetime** - 50$
-- **Monthly** - 20$
+- **Source Code** - 80$
+- **Lifetime** - 25$
+- **Monthly** - 10$
 - [Join Our Discord](https://discord.gg/reliantt)
 - [Website](https://reliant.mysellauth.com/)
 - [Issue Tracker](https://github.com/reliantservices/FiveM-Bot/issues)
