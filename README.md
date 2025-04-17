@@ -3,7 +3,7 @@
   <p>A powerful, feature-rich Discord bot designed specifically for FiveM gaming communities</p>
   
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-  [![Discord](https://img.shields.io/discord/1305825677777309740?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/reliantt)
+  [![Discord](https://img.shields.io/discord/1305825677777309740?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/cords)
   [![Stars](https://img.shields.io/github/stars/reliantservices/FiveM-Bot?style=social)](https://github.com/reliantservices/FiveM-Bot/stargazers)
 </div>
 
