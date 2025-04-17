@@ -3,7 +3,7 @@
   <p>A powerful, feature-rich Discord bot designed specifically for FiveM gaming communities</p>
   
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-  [![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/YOUR_INVITE)
+  [![Discord](https://img.shields.io/discord/1305825677777309740?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/reliantt)
   [![Stars](https://img.shields.io/github/stars/reliantservices/FiveM-Bot?style=social)](https://github.com/reliantservices/FiveM-Bot/stargazers)
 </div>
 
@@ -160,7 +160,7 @@ VERIFICATION_ROLE=role_id
 
 ## 🤝 Support
 
-- [Join Our Discord](https://discord.gg/YOUR_INVITE)
+- [Join Our Discord](https://discord.gg/reliantt)
 - [Documentation](https://your-docs-url.com)
 - [Issue Tracker](https://github.com/reliantservices/FiveM-Bot/issues)
 
@@ -178,13 +178,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Credits
 
-- **Lead Developer**: [Your Name]
-- **Contributors**: [List of Contributors]
+- **Lead Developer**: [Reliant]
 - **Special Thanks**: Discord.js Team, FiveM Community
 
 ---
 
 <div align="center">
   <p>Made with ❤️ for the FiveM Community</p>
-  <p>© 2024 Reliant Services. All rights reserved.</p>
+  <p>© 2025 Reliant Services. All rights reserved.</p>
 </div>
