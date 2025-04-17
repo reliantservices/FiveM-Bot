@@ -1,152 +1,190 @@
-# FiveM-Bot
+<div align="center">
+  <h1>🎮 FiveM Discord Bot</h1>
+  <p>A powerful, feature-rich Discord bot designed specifically for FiveM gaming communities</p>
+  
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+  [![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/YOUR_INVITE)
+  [![Stars](https://img.shields.io/github/stars/reliantservices/FiveM-Bot?style=social)](https://github.com/reliantservices/FiveM-Bot/stargazers)
+</div>
 
-🤖 Core Features & Functionality
+---
 
-👮 Administration & Moderation
-Auto Roles System
-Automatically assigns roles to new members
-Multiple roles can be configured
-Includes role hierarchy checks
-Logs role assignments
-Status Blacklist
-Monitors user status changes
-Configurable actions: ban, kick, or role assignment
-Supports regex patterns
-Detects Discord invites and variations
-Automatic enforcement
-Mass Management
-Bulk unban functionality
-Message purging with filters
-Role management tools
-Branding Control
-Custom bot status (Playing/Watching/Streaming)
-Embed color theming
-Custom footer text
-Server-specific configurations
+## 📋 Table of Contents
+- [Features](#-features)
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [Configuration](#-configuration)
+- [Commands](#-commands)
+- [Support](#-support)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-🎮 Gaming Integration
-FiveM Server Integration
-Server restart notifications
-Custom restart messages
-Server status monitoring
-IP display configuration
-Tebex Store Integration
-Webhook processing
-Transaction verification
-Purchase logging
-Role assignment on purchase
-Transaction lookup system
-Staff verification commands
-Gang Priority System
-Gang management
-Priority queue system
-Automated notifications
-Staff controls
+## 🚀 Features
 
-🤝 Community Features
-Advanced Application System
-Multi-step applications
-Customizable questions
-Different application types
-Staff review system
-Application tracking
-Automated responses
-Verification System
-Multiple verification methods:
-Simple button verification
-FiveM Passport integration
-Emoji-based CAPTCHA
-Image-based CAPTCHA
-Role assignment
-Customizable messages
-Anti-bot protection
-Staff Feedback System
-Upvote/downvote mechanism
-Reason logging
-Staff performance tracking
-Automated feedback wall
-Analytics system
-Welcome System
-Custom welcome images
-Dynamic member counting
-Configurable messages
-Multi-channel support
-Image customization
+### 🛡️ Administration
+- **Auto Roles**
+  - Automatic role assignment on join
+  - Role hierarchy management
+  - Configurable role sets
+- **Status Blacklist**
+  - Automated moderation of user statuses
+  - Configurable actions (ban/kick/role)
+  - Pattern matching support
+- **Mass Management**
+  - Bulk member unbanning
+  - Message purging with filters
+  - Role management tools
 
-📢 Content Management
-Sticky Messages
-Channel-specific messages
-Auto-reposting
-Embed support
-Active/Pause functionality
-Message customization
-Vanity URL System
-Status monitoring
-Role rewards
-Multiple URL support
-Notification system
-Analytics tracking
-Embed System
-Rich embed creation
-Dynamic field support
-Image integration
-Button integration
-Interactive components
-Keyword System
-Automated responses
-Pattern matching
-Custom triggers
-Multi-channel support
+### 🎮 FiveM Integration
+- **Server Management**
+  - Real-time server status monitoring
+  - Automated restart notifications
+  - Player count tracking
+  - Server information display
+- **Tebex Integration**
+  - Purchase verification
+  - Transaction logging
+  - Automated role assignment
+  - Store analytics
+- **Gang System**
+  - Priority management
+  - Territory control
+  - Gang statistics
 
-🔧 Technical Implementation
-Database Structure
-MongoDB integration
-Separate models for each module
-Efficient data indexing
-Relationship mapping
-Backup support
-Security Features
-Permission hierarchy
-Role-based access
-Command cooldowns
-Rate limiting
-Error handling
-Integration Capabilities
-Discord.js v14
-Webhook processing
-API integrations
-External service support
-Custom event handling
-User Interface
-Interactive buttons
-Dropdown menus
-Modal forms
-Dynamic embeds
-Reaction controls
-Monitoring & Logging
-Action logging
-Error tracking
-Usage statistics
-Performance monitoring
-Debug system
+### 🤝 Community Tools
+- **Application System**
+  - Custom application forms
+  - Staff review process
+  - Application tracking
+  - Automated responses
+- **Verification**
+  - Multiple verification methods
+  - Anti-bot protection
+  - Role integration
+  - Custom workflows
+- **Staff Feedback**
+  - Rating system
+  - Performance tracking
+  - Feedback analytics
+  - Staff leaderboards
 
-💡 Unique Features
-Multi-Step Verification
-Progressive security levels
-Custom verification flows
-Anti-raid protection
-Dynamic Role Management
-Context-based assignments
-Temporary roles
-Role hierarchy respect
-Advanced Moderation
-Pattern detection
-Automated actions
-Staff oversight
-Community Engagement
-Interactive systems
-Reward mechanisms
-Progress tracking
+### 📢 Content Management
+- **Sticky Messages**
+  - Persistent channel messages
+  - Rich embed support
+  - Dynamic updates
+- **Custom Embeds**
+  - Interactive components
+  - Dynamic content
+  - Template system
+- **Welcome System**
+  - Custom welcome images
+  - Dynamic messages
+  - Multi-channel support
 
-**This bot is specifically designed for gaming communities, particularly those running FiveM servers, providing a comprehensive suite of tools for server management, community engagement, and automated moderation. Each feature is fully configurable and can be adapted to specific server needs.**
+## 💻 Requirements
 
+### System Requirements
+- Node.js 18.0.0 or higher
+- MongoDB 4.4 or higher
+- Discord.js v14
+- FiveM Server
+
+### Recommended Specs
+- 1GB RAM minimum
+- Dual-core processor
+- Stable internet connection
+
+## 📥 Installation
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/reliantservices/FiveM-Bot.git
+cd FiveM-Bot
+```
+
+2. **Install Dependencies**
+```bash
+npm install
+```
+
+3. **Configure Environment**
+```bash
+cp .env.example .env
+# Edit .env with your settings
+```
+
+4. **Start the Bot**
+```bash
+npm start
+```
+
+## ⚙️ Configuration
+
+### Essential Settings
+```env
+DISCORD_TOKEN=your_bot_token
+MONGODB_URI=your_mongodb_uri
+FIVEM_SERVER_IP=your_server_ip
+TEBEX_SECRET=your_tebex_secret
+```
+
+### Optional Features
+```env
+WELCOME_CHANNEL=channel_id
+LOGS_CHANNEL=channel_id
+VERIFICATION_ROLE=role_id
+```
+
+## 🎯 Commands
+
+### Administrative
+- `/autoroles setup` - Configure auto role system
+- `/status_blacklist add` - Add blacklisted terms
+- `/mass-unban` - Bulk unban members
+
+### FiveM Related
+- `/server status` - Check server status
+- `/tebex verify` - Verify purchases
+- `/gang priority` - Manage gang priorities
+
+### Community
+- `/applications create` - Create application forms
+- `/verify setup` - Configure verification
+- `/staff feedback` - Manage staff ratings
+
+### Content
+- `/sticky create` - Create sticky messages
+- `/embed builder` - Create rich embeds
+- `/welcome customize` - Customize welcome messages
+
+## 🤝 Support
+
+- [Join Our Discord](https://discord.gg/YOUR_INVITE)
+- [Documentation](https://your-docs-url.com)
+- [Issue Tracker](https://github.com/reliantservices/FiveM-Bot/issues)
+
+## 👥 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🌟 Credits
+
+- **Lead Developer**: [Your Name]
+- **Contributors**: [List of Contributors]
+- **Special Thanks**: Discord.js Team, FiveM Community
+
+---
+
+<div align="center">
+  <p>Made with ❤️ for the FiveM Community</p>
+  <p>© 2024 Reliant Services. All rights reserved.</p>
+</div>
